@@ -36,12 +36,12 @@
             <div class="title">Awesome Quiz Application</div>
             <div class="timer">
                 <div class="time_text">Time left</div>
-                <div id="countdown" class="timer_sec">50</div>
+                <div id="countdown" class="timer_sec"></div>
             </div>
         </header>
-        <section>
+        <section id="quiz">
             <div id="que_text" class="que_text">
-                <span>What is JavaScript?</span>
+                <span>What</span>
             </div>
             <div class="option_list">
                 <button onclick="Answer()" id="wrong-el" class="option">
@@ -59,38 +59,14 @@
                     <span>A new software release</span>
                 </button>
             </div>
-
-            <!--Question 2-->
-            <section class="que_text2">
-                <div id="que_text" class="que_text que_text2">
-                    <span>What is JavaScript?</span>
-                </div>
-                <div class="option_list">
-                    <button onclick="Answer()" id="wrong-el" class="option">
-                        <span>A type of coffee</span>
-                        <!-- <div class="icon tick"><i class="fa fa-check"></i></div> -->
-                    </button>
-                    <button onclick="Answer()" id="right-el" class="option">
-                        <span>A programming language</span>
-                        <!-- <div class="icon cross"><i class="fa fa-times"></i></div> -->
-                    </button>
-                    <button onclick="Answer()" id="wrong-el" class="option">
-                        <span>A type of browser</span>
-                    </button>
-                    <button onclick="Answer()" id="wrong-el" class="option">
-                        <span>A new software release</span>
-                    </button>
-                </div>
-            </section>
-            
         </section>
 
         <!--Quiz Box Footer-->
         <footer>
             <div class="total_que">
-                <span><p>1</p>of<p>50</p>Questions</span>
+                <span><p id="q-num"></span>
             </div>
-            <button class="next_btn">Next Que</button>
+            <button onclick="nextQuestion()" class="next_btn">Next Que</button>
         </footer>
     </div>
 
