@@ -1,89 +1,79 @@
 <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App | Ufak Udoh</title>
+    <title> Quiz App </title>
     <link rel="stylesheet" href="style.css">
-    <!--FontAwesome CDN Link for Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <!--Start Quiz Button-->
-    <div class="start_btn"><button onclick="document.getElementById('info_box').style.display = 'block';">Start Quiz</button></div>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
 
-    <!--Info Box-->
-    <div id="info_box" class="info_box">
-        <div class="info_title">
-            <span>Some Rules of this Quiz</span>
-        </div>
-        <div class="info_list">
-            <div class="info">1. You will have only <soan>15 sceonds</span> per each question.</div>
-            <div class="info">2. Once you select your answer, you can't reselect.</div>
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
             <div class="info">3. You can't select any option once time goes off.</div>
             <div class="info">4. You can't exit from the Quiz while you're playing.</div>
-            <div class="info">5. You'll get points on the basis of your correct answer.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
         </div>
         <div class="buttons">
             <button class="quit">Exit Quiz</button>
-            <button onclick="startCountdown()" class="restart">Continue</button>
+            <button class="restart">Continue</button>
         </div>
     </div>
 
-    <!--Quiz Box-->
-    <div id="quiz_box" class="quiz_box">
+    <!-- Quiz Box -->
+    <div class="quiz_box">
         <header>
             <div class="title">Awesome Quiz Application</div>
             <div class="timer">
-                <div class="time_text">Time left</div>
-                <div id="countdown" class="timer_sec"></div>
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
             </div>
+            <div class="time_line"></div>
         </header>
-        <section id="quiz">
-            <div id="que_text" class="que_text">
-                <span>What</span>
+        <section>
+            <div class="que_text">
+          
             </div>
             <div class="option_list">
-                <button onclick="Answer()" id="wrong-el" class="option">
-                    <span>A type of coffee</span>
-                    <!-- <div class="icon tick"><i class="fa fa-check"></i></div> -->
-                </button>
-                <button onclick="Answer()" id="right-el" class="option">
-                    <span>A programming language</span>
-                    <!-- <div class="icon cross"><i class="fa fa-times"></i></div> -->
-                </button>
-                <button onclick="Answer()" id="wrong-el" class="option">
-                    <span>A type of browser</span>
-                </button>
-                <button onclick="Answer()" id="wrong-el" class="option">
-                    <span>A new software release</span>
-                </button>
+        
             </div>
         </section>
 
-        <!--Quiz Box Footer-->
+      
         <footer>
             <div class="total_que">
-                <span><p id="q-num"></span>
+              
             </div>
-            <button onclick="nextQuestion()" class="next_btn">Next Que</button>
+            <button class="next_btn">Next Que</button>
         </footer>
     </div>
 
-    <!--Result Box-->
+    <!-- Result Box -->
     <div class="result_box">
         <div class="icon">
-            <i class="fa fa-star"></i>
+            <i class="fas fa-crown"></i>
         </div>
         <div class="complete_text">You've completed the Quiz!</div>
         <div class="score_text">
-            <span>and sorry, You got only <p>20</p> out of <p>50</p></span>
+          
         </div>
         <div class="buttons">
             <button class="restart">Replay Quiz</button>
-            <button class="quiz">Quit Quiz</button>
+            <button class="quit">Quit Quiz</button>
         </div>
     </div>
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </body>
+</html>
 </html>
