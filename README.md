@@ -31,6 +31,10 @@ The Quiz App is a web-based application that allows users to test their knowledg
 
 Contributions are welcome! If you have any suggestions, improvements, or new features to add, please fork the repository and create a pull request. Make sure to follow the project's coding guidelines and conventions.
 
+## Live Link
+
+https://udohufak.github.io/Quiz-App/
+
 ## Acknowledgment
 
 Special thanks to [Miss Jolah](github.com/Jolah1) for the challenge
