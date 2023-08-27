@@ -1,59 +1,59 @@
 let questions = [
-    {
-    numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
-    options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
-    ]
-  },
-    {
-    numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
-    options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
-    ]
-  },
-    {
-    numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
-  },
-    {
-    numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
-    ]
-  },
-    {
-    numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
-  },
+      {
+        numb: 1,
+        question: "What is the purpose of the 'setTimeout' function in JavaScript?",
+        options: [
+          "It sets a timer to execute a function after a specified delay",
+          "It creates a new variable",
+          "It adds a new element to an array",
+          "It defines a new object"
+        ],
+        answer: "It sets a timer to execute a function after a specified delay"
+      },
+      {
+        numb: 2,
+        question: "Which method is used to remove the last element from an array in JavaScript?",
+        options: [
+          "pop()",
+          "removeLast()",
+          "slice()",
+          "shift()"
+        ],
+        answer: "pop()"
+      },
+      {
+        numb: 3,
+        question: "What is the purpose of the '===' operator in JavaScript?",
+        options: [
+          "It is used to assign a value to a variable",
+          "It is used to compare two values for equality, both in value and data type",
+          "It is used to define a new function",
+          "It is used to concatenate strings"
+        ],
+        answer: "It is used to compare two values for equality, both in value and data type"
+      },
+      {
+        numb: 4,
+        question: "What is the result of '5' + '2' in JavaScript?",
+        options: [
+          "7",
+          "\"52\"",
+          "52",
+          "\"52\""
+        ],
+        answer: "\"52\""
+      },
+      {
+        numb: 5,
+        question: "How do you check if a variable `x` is equal to 10 and of the same data type?",
+        options: [
+          "x === 10;",
+          "x == 10;",
+          "x = 10;",
+          "x.equivalent(10);"
+        ],
+        answer: "x === 10;"
+      },
   
 
      {
