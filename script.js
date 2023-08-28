@@ -658,8 +658,8 @@ function showQuetions(index) {
     }
 }
 
-let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
-let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+let tickIconTag = '<div class="icon tick"><i class="fa-solid fa-check"></i></div>';
+let crossIconTag = '<div class="icon cross"><i class="fa-solid fa-x"></i></div>';
 
 function optionSelected(answer) {
     clearInterval(counter);
